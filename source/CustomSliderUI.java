@@ -22,7 +22,7 @@ public class CustomSliderUI extends BasicSliderUI {
     public CustomSliderUI(JSlider b) {
         super(b);
         try {
-        	img = ImageIO.read(CustomSliderUI.class.getResource("/regan_danny/javasynth/images/slider.png"));
+        	img = ImageIO.read(CustomSliderUI.class.getResource("images/slider.png"));
         } 
         catch (IOException e) {
         	System.out.println(e);

@@ -116,12 +116,12 @@ public class JavaSynth extends JPanel {
 		
 		JLabel lblNewLabel = new JLabel("");
 		lblNewLabel.setBackground(new Color(169, 169, 169));
-		lblNewLabel.setIcon(new ImageIcon(JavaSynth.class.getResource("/regan_danny/javasynth/images/pulse.png")));
+		lblNewLabel.setIcon(new ImageIcon(JavaSynth.class.getResource("images/pulse.png")));
 		oscImages.add(lblNewLabel);
 		
 		JLabel lblNewLabel_1 = new JLabel("");
 		lblNewLabel_1.setBackground(new Color(169, 169, 169));
-		lblNewLabel_1.setIcon(new ImageIcon(JavaSynth.class.getResource("/regan_danny/javasynth/images/saw.png")));
+		lblNewLabel_1.setIcon(new ImageIcon(JavaSynth.class.getResource("images/saw.png")));
 		oscImages.add(lblNewLabel_1);
 		
 		// pulsewidth slider
@@ -157,8 +157,8 @@ public class JavaSynth extends JPanel {
 		oscButtons.setLayout(new GridLayout(2, 1, 0, 0));
 		
 		JToggleButton btnPulse = new JToggleButton("");
-		btnPulse.setSelectedIcon(new ImageIcon(JavaSynth.class.getResource("/regan_danny/javasynth/images/toggleDown.png")));
-		btnPulse.setIcon(new ImageIcon(JavaSynth.class.getResource("/regan_danny/javasynth/images/toggleUp.png")));
+		btnPulse.setSelectedIcon(new ImageIcon(JavaSynth.class.getResource("images/toggleDown.png")));
+		btnPulse.setIcon(new ImageIcon(JavaSynth.class.getResource("images/toggleUp.png")));
 		btnPulse.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				if(filterCircuit.getInput().isConnected()){
@@ -174,8 +174,8 @@ public class JavaSynth extends JPanel {
 		oscButtons.add(btnPulse);
 		
 		JToggleButton btnSaw = new JToggleButton("");
-		btnSaw.setSelectedIcon(new ImageIcon(JavaSynth.class.getResource("/regan_danny/javasynth/images/toggleDown.png")));
-		btnSaw.setIcon(new ImageIcon(JavaSynth.class.getResource("/regan_danny/javasynth/images/toggleUp.png")));
+		btnSaw.setSelectedIcon(new ImageIcon(JavaSynth.class.getResource("images/toggleDown.png")));
+		btnSaw.setIcon(new ImageIcon(JavaSynth.class.getResource("images/toggleUp.png")));
 		btnSaw.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				if(filterCircuit.getInput().isConnected()){
@@ -522,14 +522,14 @@ public class JavaSynth extends JPanel {
 		Border border = BorderFactory.createLineBorder(Color.DARK_GRAY,5);
 		JLabel label_4 = new JLabel("");
 		label_4.setBackground(new Color(169, 169, 169));
-		label_4.setIcon(new ImageIcon(JavaSynth.class.getResource("/regan_danny/javasynth/images/panel1.png")));
+		label_4.setIcon(new ImageIcon(JavaSynth.class.getResource("images/panel1.png")));
 		label_4.setBounds(1050, -12, 120, 352);
 		label_4.setBorder(border);
 		add(label_4);
 		
 		JLabel label_5 = new JLabel("");
 		label_5.setBackground(new Color(169, 169, 169));
-		label_5.setIcon(new ImageIcon(JavaSynth.class.getResource("/regan_danny/javasynth/images/panel2.png")));
+		label_5.setIcon(new ImageIcon(JavaSynth.class.getResource("images/panel2.png")));
 		label_5.setBounds(-27, -12, 127, 352);
 		label_5.setBorder(border);
 		add(label_5);
